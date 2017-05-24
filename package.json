@@ -1,0 +1,42 @@
+{
+  "name": "nextjs-flow-mobx-starter",
+  "version": "1.0.0",
+  "description": "A starter project for Next.js with Flow Type and Mobx.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "flow": "flow"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nantaphop/nextjs-flow-mobx-starter.git"
+  },
+  "keywords": [
+    "nextjs",
+    "mobx",
+    "flow",
+    "starter",
+    "example",
+    "bootstrap"
+  ],
+  "author": "Nantaphop Phuengphae",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nantaphop/nextjs-flow-mobx-starter/issues"
+  },
+  "homepage": "https://github.com/nantaphop/nextjs-flow-mobx-starter#readme",
+  "dependencies": {
+    "next": "^2.4.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "flow-bin": "^0.46.0",
+    "jest": "^20.0.4"
+  }
+}
